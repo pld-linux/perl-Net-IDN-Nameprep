@@ -7,7 +7,7 @@
 %define	pnam	IDN-Nameprep
 Summary:	IDN nameprep tools
 Summary(pl):	Narzêdzia obs³uguj±ce specyfikacjê IDN nameprep
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Net-IDN-Nameprep
 Version:	0.02
 Release:	2
 # same as perl

@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	IDN-Nameprep
+%define		pdir	Net
+%define		pnam	IDN-Nameprep
 Summary:	IDN nameprep tools
 Summary(pl):	Narzêdzia obs³uguj±ce specyfikacjê IDN nameprep
 Name:		perl-Net-IDN-Nameprep

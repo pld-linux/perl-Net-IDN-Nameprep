@@ -6,11 +6,11 @@
 %define	pdir	Net
 %define	pnam	IDN-Nameprep
 Summary:	IDN nameprep tools
-#Summary(pl):	-
+Summary(pl):	Narzêdzia obs³uguj±ce specyfikacjê IDN nameprep
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.02
-Release:	1
-# "same as perl"
+Release:	2
+# same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -27,7 +27,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Net::IDN::Nameprep implements IDN nameprep specification. This module
 exports only one function called nameprep.
 
-#%description -l pl
+%description -l pl
+Net::IDN::Nameprep jest implementacj± specyfikacji IDN nameprep. Ten
+modu³ eksportuje tylko jedn± funkcjê o nazwie nameprep.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -52,6 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorlib}/Net
 %{perl_vendorlib}/Net/IDN/Nameprep.pm
 %{perl_vendorlib}/Net/IDN/Nameprep
 %{_mandir}/man3/*

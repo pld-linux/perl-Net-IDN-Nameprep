@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	IDN-Nameprep
 Summary:	IDN nameprep tools
-Summary(pl):	Narzêdzia obs³uguj±ce specyfikacjê IDN nameprep
+Summary(pl.UTF-8):   NarzÄ™dzia obsÅ‚ugujÄ…ce specyfikacjÄ™ IDN nameprep
 Name:		perl-Net-IDN-Nameprep
 Version:	0.02
 Release:	4
@@ -30,9 +30,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Net::IDN::Nameprep implements IDN nameprep specification. This module
 exports only one function called nameprep.
 
-%description -l pl
-Net::IDN::Nameprep jest implementacj± specyfikacji IDN nameprep. Ten
-modu³ eksportuje tylko jedn± funkcjê o nazwie nameprep.
+%description -l pl.UTF-8
+Net::IDN::Nameprep jest implementacjÄ… specyfikacji IDN nameprep. Ten
+moduÅ‚ eksportuje tylko jednÄ… funkcjÄ™ o nazwie nameprep.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

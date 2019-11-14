@@ -9,13 +9,13 @@
 Summary:	IDN nameprep tools
 Summary(pl.UTF-8):	Narzędzia obsługujące specyfikację IDN nameprep
 Name:		perl-Net-IDN-Nameprep
-Version:	1.101
+Version:	1.102
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Net/CFAERBER/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	716a9400c55bde1c20136b0bef585557
+# Source0-md5:	ba4342fdb57e2c62afc122194d1e680b
 URL:		http://search.cpan.org/dist/IDN-Nameprep/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13

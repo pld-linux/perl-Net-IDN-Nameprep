@@ -9,7 +9,7 @@ Summary:	IDN nameprep tools
 Summary(pl.UTF-8):	Narzędzia obsługujące specyfikację IDN nameprep
 Name:		perl-Net-IDN-Nameprep
 Version:	1.102
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
